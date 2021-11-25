@@ -11,7 +11,20 @@
 </head>
 <body>
     <div id="app">
-        <p>Meu nome é : {{ name }}, e possuo {{idade}} anos</p>
+
+        <form id="app-form">
+            <!--v-model serve para comnunicar o vue para salvar o dado do input no vue-->
+
+            <input type="text" v-model="input_name" placeholder="Digitie o seu nome">
+            <input type="submit" value="Enviar" v-on:click="submitForm">
+        </form>
+
+
+        <!--mostrando dados atraves do evento-->
+        <p>Meu nome é  {{name}} , e possuo {{idade}} anos </p>
+
+        <!--informando dados através do data binding-->
+        <p>Data binding : {{input_name}}</p>
     </div>
     
 </body>
