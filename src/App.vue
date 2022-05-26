@@ -1,10 +1,11 @@
 <template>
 <div id="app">
 
-  <Header />
-  
-  <Home />
+  <Header/>
+  <Home/>
   <Footer/>
+
+ 
 
 </div>
  
