@@ -12,4 +12,13 @@ export default {
 
 <style scoped>
 
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: var(--color-background-nav);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 </style>
