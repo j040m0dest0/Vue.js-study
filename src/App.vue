@@ -1,14 +1,14 @@
 <template>
-<div id="app">
+  <div id="app">
 
-  <Header/>
-  <router-view path="$router.key" />
-  <Footer/>
+      <Header/>
+      <router-view path="$router.key" />
+      <Footer/>
 
- 
+  
 
-</div>
- 
+  </div>
+  
 </template>
 
 <script>
